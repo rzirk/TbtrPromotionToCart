@@ -1,0 +1,31 @@
+{
+    "name": "tbtr/promotion-to-cart",
+    "description": "This Plugin adds automatically 100% off promotions to the cart",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Zirk"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.4.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "Tbtr\\PromotionToCart\\TbtrPromotionToCart",
+        "label": {
+            "de-DE": "Aktions-Gratisprodukte in den Einkaufswagen",
+            "en-GB": "Promoted freebies to the cart"
+        },
+        "description": {
+            "de-DE": "Legt Produkte welche durch einen Aktion gratis sind automatisch in den Warenkorb",
+            "en-GB": "Adds products which are free (100% off) due an promotion automatically to the cart"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Tbtr\\PromotionToCart\\": "src/"
+        }
+    }
+}
