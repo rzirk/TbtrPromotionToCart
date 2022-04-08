@@ -1,4 +1,4 @@
-# ShopwarePlugin - Promotion to Cart
+# Shopware 6 Plugin - Promotion to Cart
 
 ## Warning: This Plugin is not meant to be used yet! It is under ongoing development!
 
